@@ -10,7 +10,7 @@ is using a vulnerable version of `tough-cookie`, so we've bumped it to
 ## Installation
 
 ```
-$ npm i --save github:Sharecare/node-docker-registry-client#hash
+$ npm i --save github:Sharecare/node-docker-registry-client#751208273d3550cb34abf8f1cce53ddf4c25a6e3
 ```
 
 ## Inputs
