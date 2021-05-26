@@ -1,8 +1,12 @@
-# node-docker-registry-client Changelog
+# @sharecare/docker-registry-client Changelog
 
 ## not yet released
 
 (nothing yet)
+
+## 4.0.0
+
+- Changed to Sharecare scaoped package; updated dependencies to remoediate vulnerabilities (`tough-cookie`)
 
 ## 3.3.0
 
