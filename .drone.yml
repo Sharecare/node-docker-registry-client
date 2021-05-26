@@ -7,7 +7,7 @@ steps:
     environment:
       NPM_CONFIG_USERCONFIG: /secrets/.npmrc
     commands:
-      - make
+      - npm ci
 
 trigger:
   branch: [ develop, master ]
@@ -22,7 +22,7 @@ steps:
     environment:
       NPM_CONFIG_USERCONFIG: /secrets/.npmrc
     commands:
-      - make
+      - npm ci
 
   - name: publish
     image: nexus.admin.sharecare.com/mhart/alpine-node
