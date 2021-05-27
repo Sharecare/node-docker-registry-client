@@ -1,22 +1,12 @@
 {
     "name": "@sharecare/docker-registry-client",
-    "version": "4.0.4",
+    "version": "4.0.5",
     "description": "node.js client for the Docker Registry API",
     "author": "Joyent (joyent.com)",
     "contributors": [
         "Bob Baker (bbaker@sharecare.com)"
     ],
     "main": "./lib/index.js",
-    "files": [
-        "./lib/common.js",
-        "./lib/docker-json-client.js",
-        "./lib/errors.js",
-        "./lib/index.js",
-        "./lib/registry-client-v1.js",
-        "./lib/registry-client-v2.js",
-        "./CHANGES.md",
-        "./TODO.txt"
-    ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
