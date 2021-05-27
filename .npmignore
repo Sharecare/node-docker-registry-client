@@ -10,3 +10,4 @@
 *.layer
 *.blob
 /test/config.json
+.drone.yml

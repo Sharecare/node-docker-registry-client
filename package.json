@@ -1,12 +1,15 @@
 {
     "name": "@sharecare/docker-registry-client",
-    "version": "4.0.0",
+    "version": "4.0.1",
     "description": "node.js client for the Docker Registry API",
     "author": "Joyent (joyent.com)",
     "contributors": [
         "Bob Baker (bbaker@sharecare.com)"
     ],
     "main": "./lib/index.js",
+    "files": [
+        "./lib/*.js"
+    ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
