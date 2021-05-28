@@ -7,7 +7,8 @@ steps:
     environment:
       NPM_CONFIG_USERCONFIG: /secrets/.npmrc
     commands:
-      - npm ci
+      - apk add --no-cache --update make
+      - make
 
 trigger:
   branch: [ develop, master ]
