@@ -60,7 +60,7 @@ versioncheck:
 .PHONY: cutarelease
 cutarelease: versioncheck
 	[[ -z `git status --short` ]]  # If this fails, the working dir is dirty.
-	@which json 2>/dev/null 1>/dev/null && \
+	@which jq 2>/dev/null 1>/dev/null && \
 	    ver=$(shell jq -r .version package.json) && \
 	    name=$(shell jq -r .name package.json) && \
 	    publishedVer=$(shell npm view -j $(shell jq -r .name package.json)@$(shell jq -r .version package.json) version 2>/dev/null) && \
