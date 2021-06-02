@@ -73,9 +73,9 @@ cutarelease: versioncheck
 	    read
 	ver=$(shell jq -r .version package.json) && \
 	    date=$(shell date -u "+%Y-%m-%d") && \
-	    #git tag -a "$$ver" -m "version $$ver ($$date)" && \
-	    #git push --tags origin && \
-	    #npm publish
+	    git tag -a "$$ver" -m "version $$ver ($$date)" && \
+	    git push --tags origin && \
+	    npm publish
 
 include ./tools/mk/Makefile.deps
 include ./tools/mk/Makefile.targ
