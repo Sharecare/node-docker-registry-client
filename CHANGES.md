@@ -4,9 +4,9 @@
 
 (nothing yet)
 
-## 4.0.0
+## 4.0.5
 
-- Changed to Sharecare scaoped package; updated dependencies to remoediate vulnerabilities (`tough-cookie`)
+- Changed to Sharecare scoped package; updated dependencies to remediate vulnerabilities (`tough-cookie`)
 
 ## 3.3.0
 
