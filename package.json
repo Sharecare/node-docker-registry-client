@@ -1,6 +1,6 @@
 {
     "name": "@sharecare/docker-registry-client",
-    "version": "4.0.6",
+    "version": "4.0.7",
     "description": "node.js client for the Docker Registry API",
     "author": "Joyent (joyent.com)",
     "contributors": [

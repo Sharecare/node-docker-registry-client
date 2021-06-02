@@ -10,4 +10,6 @@
 *.layer
 *.blob
 /test/config.json
-.drone.yml
+/tinker.js
+*.iml
+/.idea
