@@ -10,7 +10,3 @@
 *.layer
 *.blob
 /test/config.json
-/tinker.js
-*.iml
-/.idea
-*.tgz

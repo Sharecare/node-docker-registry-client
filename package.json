@@ -1,49 +1,29 @@
 {
-    "name": "@sharecare/docker-registry-client",
-    "version": "4.0.8",
+    "name": "docker-registry-client",
+    "version": "3.3.0",
     "description": "node.js client for the Docker Registry API",
     "author": "Joyent (joyent.com)",
-    "contributors": [
-        "Bob Baker (bbaker@sharecare.com)"
-    ],
     "main": "./lib/index.js",
     "dependencies": {
-        "assert-plus": "^1.0.0",
-        "base64url": "^3.0.1",
-        "bunyan": "^1.8.15",
-        "jwk-to-pem": "^2.0.4",
-        "jws": "^4.0.0",
-        "restify-clients": "^3.1.0",
-        "restify-errors": "^8.0.2",
-        "strsplit": "^1.0.0",
-        "tough-cookie": "^4.0.0",
-        "vasync": "^1.6.4",
-        "verror": "^1.10.0",
-        "www-authenticate": "^0.6.2"
+        "assert-plus": "^0.1.5",
+        "base64url": "1.x >=1.0.4",
+        "bunyan": "1.x >=1.3.3",
+        "jws": "3.1.0",
+        "jwk-to-pem": "1.2.0",
+        "restify-clients": "^1.4.0",
+        "restify-errors": "^3.0.0",
+        "strsplit": "1.x",
+        "tough-cookie": "^2.3.0",
+        "vasync": "1.x >=1.6.1",
+        "verror": "1.x >=1.6.0",
+        "www-authenticate": "0.6.x >=0.6.2"
     },
-    "bundledDependencies": [
-        "asn1.js",
-        "assert-plus",
-        "base64url",
-        "bn.js",
-        "elliptic",
-        "fast-safe-stringify",
-        "jwa",
-        "jwk-to-pem",
-        "jws",
-        "lru-cache",
-        "mime",
-        "restify-client",
-        "restify-errors",
-        "tough-cookie",
-        "yallist"
-    ],
     "devDependencies": {
-        "dashdash": "^1.14.1",
-        "read": "^1.0.7",
-        "once": "^1.4.0",
-        "progbar": "^1.2.1",
-        "tape": "^4.13.3"
+        "dashdash": "1.x",
+        "read": "1.x",
+        "once": "1.x",
+        "progbar": "1.x",
+        "tape": "4.x"
     },
     "engines": {
         "node": ">=0.10"
@@ -58,7 +38,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/Sharecare/node-docker-registry-client.git"
+        "url": "https://github.com/joyent/node-docker-registry-client.git"
     },
     "license": "MPL-2.0"
 }
