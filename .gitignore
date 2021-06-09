@@ -5,3 +5,7 @@
 *.blob
 /examples/v2/*.manifest
 /test/config.json
+/.idea/
+/node-docker-registry-client.iml
+/*.tgz
+/tinker.js
