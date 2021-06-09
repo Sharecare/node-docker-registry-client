@@ -21,6 +21,23 @@
         "verror": "^1.10.0",
         "www-authenticate": "^0.6.2"
     },
+    "bundledDependencies": [
+        "asn1.js",
+        "assert-plus",
+        "base64url",
+        "bn.js",
+        "elliptic",
+        "fast-safe-stringify",
+        "jwa",
+        "jwk-to-pem",
+        "jws",
+        "lru-cache",
+        "mime",
+        "restify-client",
+        "restify-errors",
+        "tough-cookie",
+        "yallist"
+    ],
     "devDependencies": {
         "dashdash": "^1.14.1",
         "read": "^1.0.7",

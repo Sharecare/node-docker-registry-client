@@ -4,7 +4,7 @@
 
 (nothing yet)
 
-## 4.0.7
+## 4.0.8
 
 - Changed to Sharecare scoped package; updated dependencies to remediate vulnerabilities (`tough-cookie`)
 
